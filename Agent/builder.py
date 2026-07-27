@@ -20,4 +20,5 @@ def builder():
     builder.add_edge("bot", END)
 
     graph = builder.compile()
+    print("The graph has been build. \n")
     return graph
