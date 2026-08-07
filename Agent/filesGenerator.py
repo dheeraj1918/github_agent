@@ -4,14 +4,10 @@ import os
 import datetime
 
 @tool
-def create_file(path: str, content: str):
+def create_file(file_path: str):
     """This tool help to create open file and read, write file"""
-    with open(str, "a") as f:
-        return f.write(str)
-    
-        #open and read the file after the appending:
-    with open(str) as f:
-        return f.read(str)
+    with open(file_path, "a") as f:
+        pass
     
 
 @tool
