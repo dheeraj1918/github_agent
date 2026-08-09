@@ -87,10 +87,13 @@ GITHUB_TOKEN=YOUR_GITHUB_ACCESS_TOKEN
 ## How to run the project?
 
 ``` text 
-*run these commands*
--> uv init
-->uv venv
--> *cd agent*
-->python app.py
+**run these commands**
+* clone the repo
+* uv init
+* uv venv
+* uv add -r requirements.txt
+* cd agent
+* python app.py
+
 
 ```
