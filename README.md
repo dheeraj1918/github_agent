@@ -83,3 +83,14 @@ Create a .env file inside the project root:
 
 gemini_api=YOUR_GEMINI_API_KEY
 GITHUB_TOKEN=YOUR_GITHUB_ACCESS_TOKEN
+
+## How to run the project?
+
+``` text 
+*run these commands*
+-> uv init
+->uv venv
+-> *cd agent*
+->python app.py
+
+```
