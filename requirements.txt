@@ -4,4 +4,3 @@ langchain_ollama
 dotenv
 langchain_google_genai
 pypdf
-os

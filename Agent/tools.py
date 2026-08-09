@@ -1,6 +1,7 @@
 from publicUrl import getGithubDetails
 from filesGenerator import create_file,create_folder
 from pdfReader import pdfReader
+from githubAgent import github_create_repository,github_delete_repository,github_create_file,github_delete_file,github_update_file
 
 # Expose the actual tool list for LangGraph and LangChain bindings.
-tools = [getGithubDetails,create_file,create_folder,pdfReader]
+tools = [getGithubDetails,create_file,create_folder,pdfReader,github_create_repository,github_delete_repository,github_create_file,github_delete_file,github_update_file]
