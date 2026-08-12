@@ -1,4 +1,4 @@
-from tools import tools
+from tool_registry import tools
 from langchain_ollama import ChatOllama
 import os
 from langchain.chat_models import init_chat_model

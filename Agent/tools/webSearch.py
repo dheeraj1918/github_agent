@@ -1,6 +1,5 @@
 from ddgs import DDGS
 from langchain_core.tools import tool
-import traceback
 
 @tool
 def webSearch(query:str,max_results:int)->list:
